@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace TetsCreatorApplication
 {
-    public partial class Form1 : Form
+    public partial class EditTestForm : Form
     {
-        public Form1()
+        public EditTestForm()
         {
             InitializeComponent();
+        }
+
+        private void CreateTestButtonClick(object sender, EventArgs e)
+        {
+            var editTaskForm = new EditTaskForm();
+            editTaskForm.ShowDialog();
         }
     }
 }

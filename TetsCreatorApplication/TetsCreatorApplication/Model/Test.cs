@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace TetsCreatorApplication.Model
 {
@@ -21,6 +22,21 @@ namespace TetsCreatorApplication.Model
         public int ReservedTime { get; set; }
 
         public int MinBalllsForCompliteTest { get; set; }
+
+        public bool IsAnswered { get; set; }
+
+        public String Author { get; set; }
+
+        public DateTime CreatedDate { get; set; }
+
+        public String Theme { get; set; }
+
+        public int PercentForExcelent { get; set; }
+        
+        public int PercentForSatisfactorily { get; set; }
+        
+        public int PercentForWell { get; set; }
+
 
 
         #region TestFlags

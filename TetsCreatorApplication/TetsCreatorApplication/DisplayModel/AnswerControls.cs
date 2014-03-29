@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TetsCreatorApplication.Model
+namespace TetsCreatorApplication.DisplayModel
 {
-    public enum TaskType
+    public class AnswerControls
     {
-        Test,
-        InsertAnswer,
-        MapWork
+
+
     }
 }
