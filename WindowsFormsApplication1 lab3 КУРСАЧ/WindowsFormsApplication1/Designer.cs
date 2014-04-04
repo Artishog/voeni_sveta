@@ -15,6 +15,7 @@ namespace WindowsFormsApplication1
         public Shape current_Shape;
         private ShapeBuilder createShape;
         private CircleBuilder createCircle;
+        private LineBuilder createLine;
         private TriangleBuilder createTriangle;
         private RectangleBuilder createRectangle;
         private List<Shape> list_of_Shapes = new List<Shape>();
@@ -43,6 +44,11 @@ namespace WindowsFormsApplication1
             createShape = createRectangle;
         }
 
+        private void lineToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            createShape = createLine;
+        }
+
         private void pictureBox1_MouseDown_1(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -58,7 +64,6 @@ namespace WindowsFormsApplication1
         public void dr_objects()
         {
             list_of_Shapes.ForEach(delegate(Shape current_Shape) { current_Shape.draw(grph); });
-
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
@@ -87,6 +92,7 @@ namespace WindowsFormsApplication1
             createCircle = new CircleBuilder();
             createRectangle = new RectangleBuilder();
             createTriangle = new TriangleBuilder();
+            createLine = new LineBuilder();
             createShape = createRectangle;
         }
 

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<UserShapeBuilder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <namebuilder>My shape</namebuilder>
+  <NameBuilder>My shape</NameBuilder>
+  <Content>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>112</X>
+        <Y>38</Y>
+      </P1>
+      <P2>
+        <X>112</X>
+        <Y>38</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>65</X>
+        <Y>41</Y>
+      </P1>
+      <P2>
+        <X>65</X>
+        <Y>41</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>65</X>
+        <Y>41</Y>
+      </P1>
+      <P2>
+        <X>64</X>
+        <Y>41</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>63</X>
+        <Y>41</Y>
+      </P1>
+      <P2>
+        <X>63</X>
+        <Y>41</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>3</X>
+        <Y>108</Y>
+      </P1>
+      <P2>
+        <X>3</X>
+        <Y>108</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>1</X>
+        <Y>108</Y>
+      </P1>
+      <P2>
+        <X>1</X>
+        <Y>108</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>0</X>
+        <Y>108</Y>
+      </P1>
+      <P2>
+        <X>125</X>
+        <Y>188</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>263</X>
+        <Y>108</Y>
+      </P1>
+      <P2>
+        <X>133</X>
+        <Y>184</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>113</X>
+        <Y>0</Y>
+      </P1>
+      <P2>
+        <X>220</X>
+        <Y>144</Y>
+      </P2>
+    </Shape>
+  </Content>
+  <EndX>263</EndX>
+  <EndY>188</EndY>
+</UserShapeBuilder>

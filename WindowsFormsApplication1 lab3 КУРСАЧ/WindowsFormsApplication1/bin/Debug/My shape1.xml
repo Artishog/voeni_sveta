@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<UserShapeBuilder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <namebuilder>My shape1</namebuilder>
+  <NameBuilder>My shape1</NameBuilder>
+  <Content>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>58</X>
+        <Y>0</Y>
+      </P1>
+      <P2>
+        <X>134</X>
+        <Y>173</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>0</X>
+        <Y>130</Y>
+      </P1>
+      <P2>
+        <X>95</X>
+        <Y>197</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>98</X>
+        <Y>137</Y>
+      </P1>
+      <P2>
+        <X>221</X>
+        <Y>203</Y>
+      </P2>
+    </Shape>
+  </Content>
+  <EndX>221</EndX>
+  <EndY>203</EndY>
+</UserShapeBuilder>

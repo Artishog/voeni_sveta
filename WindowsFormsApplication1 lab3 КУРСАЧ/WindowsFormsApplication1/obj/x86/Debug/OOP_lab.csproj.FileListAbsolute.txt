@@ -1,0 +1,69 @@
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Designer.resources
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\allfiles\university\курс III\семестр 5\OOP\WindowsFormsApplication1 backup3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\allfiles\university\курс III\семестр 5\OOP\WindowsFormsApplication1 backup3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1 backup3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1 backup3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ShapeInterface.dll
+D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ShapeInterface.pdb
+D:\allfiles\university\курс III\семестр 5\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\allfiles\university\курс III\семестр 5\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\ShapeInterface.dll
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\ShapeInterface.pdb
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Designer.resources
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ren\Desktop\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Resource1.resources
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\ShapeInterface.dll
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\bin\Debug\ShapeInterface.pdb
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\OOP_lab.csprojResolveAssemblyReference.cache
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Designer.resources
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Resource1.resources
+D:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3\WindowsFormsApplication1\obj\x86\Debug\OOP_lab.csproj.GenerateResource.Cache
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\ShapeInterface.dll
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\ShapeInterface.pdb
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\OOP_lab.csprojResolveAssemblyReference.cache
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Designer.resources
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Resource1.resources
+e:\Универ\5 семестр\OOP\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\OOP_lab.csproj.GenerateResource.Cache
+D:\voenka\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\voenka\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\ShapeInterface.dll
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\bin\Debug\ShapeInterface.pdb
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\OOP_lab.csprojResolveAssemblyReference.cache
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Designer.resources
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Resource1.resources
+D:\voenka\vno\voeni_sveta\WindowsFormsApplication1 lab3 КУРСАЧ\WindowsFormsApplication1\obj\x86\Debug\OOP_lab.csproj.GenerateResource.Cache

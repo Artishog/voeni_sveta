@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UserShapeBuilder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <namebuilder>My shape</namebuilder>
+  <Content>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>0</X>
+        <Y>0</Y>
+      </P1>
+      <P2>
+        <X>99</X>
+        <Y>68</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>65</X>
+        <Y>61</Y>
+      </P1>
+      <P2>
+        <X>153</X>
+        <Y>95</Y>
+      </P2>
+    </Shape>
+  </Content>
+  <EndX>153</EndX>
+  <EndY>95</EndY>
+</UserShapeBuilder>
