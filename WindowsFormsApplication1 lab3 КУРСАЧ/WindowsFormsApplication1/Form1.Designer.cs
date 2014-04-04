@@ -56,22 +56,25 @@
             this.labelY = new System.Windows.Forms.ToolStripStatusLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.eraseBox = new System.Windows.Forms.CheckBox();
             this.triangleBox = new System.Windows.Forms.CheckBox();
             this.pencilBox = new System.Windows.Forms.CheckBox();
             this.lineBox = new System.Windows.Forms.CheckBox();
             this.ellipseBox = new System.Windows.Forms.CheckBox();
             this.rectangleBox = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -303,6 +306,9 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.checkBox13);
+            this.panel1.Controls.Add(this.checkBox12);
+            this.panel1.Controls.Add(this.checkBox11);
             this.panel1.Controls.Add(this.checkBox10);
             this.panel1.Controls.Add(this.checkBox9);
             this.panel1.Controls.Add(this.checkBox8);
@@ -323,6 +329,149 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(82, 425);
             this.panel1.TabIndex = 8;
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox13.Image = ((System.Drawing.Image)(resources.GetObject("checkBox13.Image")));
+            this.checkBox13.Location = new System.Drawing.Point(10, 278);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(23, 23);
+            this.checkBox13.TabIndex = 21;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox12.Image = ((System.Drawing.Image)(resources.GetObject("checkBox12.Image")));
+            this.checkBox12.Location = new System.Drawing.Point(10, 249);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(23, 23);
+            this.checkBox12.TabIndex = 20;
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox11.Image = ((System.Drawing.Image)(resources.GetObject("checkBox11.Image")));
+            this.checkBox11.Location = new System.Drawing.Point(10, 220);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(23, 23);
+            this.checkBox11.TabIndex = 19;
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox10.Image = ((System.Drawing.Image)(resources.GetObject("checkBox10.Image")));
+            this.checkBox10.Location = new System.Drawing.Point(39, 308);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(23, 23);
+            this.checkBox10.TabIndex = 18;
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox9.Image = ((System.Drawing.Image)(resources.GetObject("checkBox9.Image")));
+            this.checkBox9.Location = new System.Drawing.Point(10, 191);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(23, 23);
+            this.checkBox9.TabIndex = 9;
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox8.Image = ((System.Drawing.Image)(resources.GetObject("checkBox8.Image")));
+            this.checkBox8.Location = new System.Drawing.Point(39, 279);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(23, 23);
+            this.checkBox8.TabIndex = 17;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox7.Image = ((System.Drawing.Image)(resources.GetObject("checkBox7.Image")));
+            this.checkBox7.Location = new System.Drawing.Point(10, 162);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(23, 23);
+            this.checkBox7.TabIndex = 16;
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox6.Image = ((System.Drawing.Image)(resources.GetObject("checkBox6.Image")));
+            this.checkBox6.Location = new System.Drawing.Point(39, 250);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(23, 23);
+            this.checkBox6.TabIndex = 15;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox5.Image = ((System.Drawing.Image)(resources.GetObject("checkBox5.Image")));
+            this.checkBox5.Location = new System.Drawing.Point(10, 133);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(23, 23);
+            this.checkBox5.TabIndex = 14;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox4.Image = ((System.Drawing.Image)(resources.GetObject("checkBox4.Image")));
+            this.checkBox4.Location = new System.Drawing.Point(39, 221);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(23, 23);
+            this.checkBox4.TabIndex = 13;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox3.Image = ((System.Drawing.Image)(resources.GetObject("checkBox3.Image")));
+            this.checkBox3.Location = new System.Drawing.Point(39, 162);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(23, 23);
+            this.checkBox3.TabIndex = 12;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox2.Image = ((System.Drawing.Image)(resources.GetObject("checkBox2.Image")));
+            this.checkBox2.Location = new System.Drawing.Point(39, 192);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(23, 23);
+            this.checkBox2.TabIndex = 11;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox1.Image = ((System.Drawing.Image)(resources.GetObject("checkBox1.Image")));
+            this.checkBox1.Location = new System.Drawing.Point(39, 133);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(23, 23);
+            this.checkBox1.TabIndex = 10;
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // eraseBox
             // 
@@ -396,116 +545,6 @@
             this.rectangleBox.UseVisualStyleBackColor = true;
             this.rectangleBox.CheckedChanged += new System.EventHandler(this.rectangleBox_CheckedChanged);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox1.Image = ((System.Drawing.Image)(resources.GetObject("checkBox1.Image")));
-            this.checkBox1.Location = new System.Drawing.Point(10, 134);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(23, 23);
-            this.checkBox1.TabIndex = 10;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox2.Image = ((System.Drawing.Image)(resources.GetObject("checkBox2.Image")));
-            this.checkBox2.Location = new System.Drawing.Point(39, 134);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(23, 23);
-            this.checkBox2.TabIndex = 11;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox3.Image = ((System.Drawing.Image)(resources.GetObject("checkBox3.Image")));
-            this.checkBox3.Location = new System.Drawing.Point(10, 163);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(23, 23);
-            this.checkBox3.TabIndex = 12;
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox4.Image = ((System.Drawing.Image)(resources.GetObject("checkBox4.Image")));
-            this.checkBox4.Location = new System.Drawing.Point(39, 163);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(23, 23);
-            this.checkBox4.TabIndex = 13;
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox5.Image = ((System.Drawing.Image)(resources.GetObject("checkBox5.Image")));
-            this.checkBox5.Location = new System.Drawing.Point(10, 192);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(23, 23);
-            this.checkBox5.TabIndex = 14;
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox6.Image = ((System.Drawing.Image)(resources.GetObject("checkBox6.Image")));
-            this.checkBox6.Location = new System.Drawing.Point(39, 192);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(23, 23);
-            this.checkBox6.TabIndex = 15;
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox7.Image = ((System.Drawing.Image)(resources.GetObject("checkBox7.Image")));
-            this.checkBox7.Location = new System.Drawing.Point(10, 221);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(23, 23);
-            this.checkBox7.TabIndex = 16;
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox8.Image = ((System.Drawing.Image)(resources.GetObject("checkBox8.Image")));
-            this.checkBox8.Location = new System.Drawing.Point(39, 221);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(23, 23);
-            this.checkBox8.TabIndex = 17;
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox9.Image = ((System.Drawing.Image)(resources.GetObject("checkBox9.Image")));
-            this.checkBox9.Location = new System.Drawing.Point(10, 250);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(23, 23);
-            this.checkBox9.TabIndex = 9;
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.Appearance = System.Windows.Forms.Appearance.Button;
-            this.checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox10.Image = ((System.Drawing.Image)(resources.GetObject("checkBox10.Image")));
-            this.checkBox10.Location = new System.Drawing.Point(39, 250);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(23, 23);
-            this.checkBox10.TabIndex = 18;
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -576,6 +615,9 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox11;
     }
 }
 
