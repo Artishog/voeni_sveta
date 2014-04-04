@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMementoShape xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MementoShape>
+    <ShapeState xsi:type="Rectangle">
+      <P1>
+        <X>51</X>
+        <Y>38</Y>
+      </P1>
+      <P2>
+        <X>208</X>
+        <Y>169</Y>
+      </P2>
+    </ShapeState>
+  </MementoShape>
+  <MementoShape>
+    <ShapeState xsi:type="Rectangle">
+      <P1>
+        <X>102</X>
+        <Y>93</Y>
+      </P1>
+      <P2>
+        <X>392</X>
+        <Y>266</Y>
+      </P2>
+    </ShapeState>
+  </MementoShape>
+  <MementoShape>
+    <ShapeState xsi:type="Rectangle">
+      <P1>
+        <X>108</X>
+        <Y>100</Y>
+      </P1>
+      <P2>
+        <X>201</X>
+        <Y>162</Y>
+      </P2>
+    </ShapeState>
+  </MementoShape>
+</ArrayOfMementoShape>

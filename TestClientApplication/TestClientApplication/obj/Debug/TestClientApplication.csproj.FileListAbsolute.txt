@@ -1,0 +1,10 @@
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\bin\Debug\TestClientApplication.exe.config
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.csprojResolveAssemblyReference.cache
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.Properties.Resources.resources
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.csproj.GenerateResource.Cache
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\bin\Debug\TestClientApplication.exe
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\bin\Debug\TestClientApplication.pdb
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.exe
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.pdb
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.Form1.resources
+E:\Универ\8 семестр\ПРОЕКТ ВОЕНКИ\voeni_sveta\TestClientApplication\TestClientApplication\obj\Debug\TestClientApplication.MainTestForm.resources

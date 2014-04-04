@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<UserShapeBuilder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <namebuilder>DOG</namebuilder>
+  <Content>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>0</X>
+        <Y>0</Y>
+      </P1>
+      <P2>
+        <X>91</X>
+        <Y>49</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>65</X>
+        <Y>33</Y>
+      </P1>
+      <P2>
+        <X>103</X>
+        <Y>77</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>72</X>
+        <Y>65</Y>
+      </P1>
+      <P2>
+        <X>201</X>
+        <Y>117</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>83</X>
+        <Y>108</Y>
+      </P1>
+      <P2>
+        <X>103</X>
+        <Y>134</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>103</X>
+        <Y>111</Y>
+      </P1>
+      <P2>
+        <X>122</X>
+        <Y>135</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>157</X>
+        <Y>113</Y>
+      </P1>
+      <P2>
+        <X>171</X>
+        <Y>135</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>173</X>
+        <Y>109</Y>
+      </P1>
+      <P2>
+        <X>188</X>
+        <Y>135</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>41</X>
+        <Y>3</Y>
+      </P1>
+      <P2>
+        <X>51</X>
+        <Y>12</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>54</X>
+        <Y>8</Y>
+      </P1>
+      <P2>
+        <X>64</X>
+        <Y>16</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>7</X>
+        <Y>18</Y>
+      </P1>
+      <P2>
+        <X>11</X>
+        <Y>20</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Circle">
+      <P1>
+        <X>10</X>
+        <Y>21</Y>
+      </P1>
+      <P2>
+        <X>14</X>
+        <Y>23</Y>
+      </P2>
+    </Shape>
+    <Shape xsi:type="Rectangle">
+      <P1>
+        <X>69</X>
+        <Y>8</Y>
+      </P1>
+      <P2>
+        <X>82</X>
+        <Y>58</Y>
+      </P2>
+    </Shape>
+  </Content>
+  <EndX>201</EndX>
+  <EndY>135</EndY>
+</UserShapeBuilder>

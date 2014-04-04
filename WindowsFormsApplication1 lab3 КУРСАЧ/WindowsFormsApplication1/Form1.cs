@@ -44,6 +44,23 @@ namespace WindowsFormsApplication1
         private bool shapeIsPicked = false;
         private ManagerUndoRedo managerUndoRedo = new ManagerUndoRedo();
 
+        private void LoadButtonShapes()
+        {
+            string[] fileNames = Directory.GetFiles("./buttonShapes", "*.xml");
+
+            foreach (var fileName in fileNames)
+            {
+                try
+                {
+                    DeserializeBuilder(fileName);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Pick valid file", "Error");
+                }
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             this.grph = this.pictureBox1.CreateGraphics();
@@ -61,6 +78,8 @@ namespace WindowsFormsApplication1
             isItTool = false;
             current_pen.Width = 1.0F;
             this.Cursor = Cursors.Cross;
+
+            this.LoadButtonShapes();
         }
 
         private int CheckPickedShape(MouseEventArgs e)
@@ -91,7 +110,10 @@ namespace WindowsFormsApplication1
             {
                 shapeIsPicked = false;
                 currentShape = createShape.CreateShape();
-                p.X = e.Location.X; p.Y = e.Location.Y;
+                if (e.Button == MouseButtons.Left)
+                {
+                    p.X = e.Location.X; p.Y = e.Location.Y;
+                }
                 currentShape.P1 = p;
                 currentShape.P2 = p;
                 currentShape.SetPenColor(current_pen);
@@ -99,7 +121,6 @@ namespace WindowsFormsApplication1
                 currentShape.draw(grph);
                 list_of_Shapes.Add(currentShape);
             }
-
         }
 
         private void ChangePickedOutShape(MouseEventArgs e, Shape currentShape, int numberPickedShape, Point p)
@@ -167,7 +188,6 @@ namespace WindowsFormsApplication1
         {
             if (leftbuttondown)
             {
-
                 if (!shapeIsPicked)  //if ((currentShape.P1.X != currentShape.P2.X) && (currentShape.P1.Y != currentShape.P2.Y))
                     list_of_Shapes.Add(currentShape);
                 else
@@ -180,6 +200,12 @@ namespace WindowsFormsApplication1
                 managerUndoRedo.Undo();
                 managerUndoRedo.Undo();
                 leftbuttondouble = false;
+            }
+
+            if (e.Button == MouseButtons.Right)
+            {
+                this.p.X = e.Location.X;
+                this.p.Y = e.Location.Y;
             }
         }
 
