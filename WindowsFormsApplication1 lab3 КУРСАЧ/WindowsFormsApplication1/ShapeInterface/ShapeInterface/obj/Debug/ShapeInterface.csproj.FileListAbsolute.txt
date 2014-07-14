@@ -1,5 +1,0 @@
-D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\ShapeInterface\ShapeInterface\obj\Debug\ResolveAssemblyReference.cache
-D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\ShapeInterface\ShapeInterface\bin\Debug\ShapeInterface.dll
-D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\ShapeInterface\ShapeInterface\bin\Debug\ShapeInterface.pdb
-D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\ShapeInterface\ShapeInterface\obj\Debug\ShapeInterface.dll
-D:\allfiles\university\курс III\семестр 5\OOP\proba\WindowsFormsApplication1\WindowsFormsApplication1\ShapeInterface\ShapeInterface\obj\Debug\ShapeInterface.pdb
