@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.5.4">
+<file name="C:\php-ws\home\jenkins test\voeni_sveta\app\lang\en\validation.php">
+ <error line="20" column="88" severity="warning" message="Line longer than 80 characters; contains 87 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="59" column="82" severity="warning" message="Line longer than 80 characters; contains 81 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="60" column="84" severity="warning" message="Line longer than 80 characters; contains 83 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="61" column="88" severity="warning" message="Line longer than 80 characters; contains 87 characters" source="Generic.Files.LineLength.TooLong"/>
+</file>
+<file name="C:\php-ws\home\jenkins test\voeni_sveta\app\views\emails\auth\reminder.blade.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+<file name="C:\php-ws\home\jenkins test\voeni_sveta\app\views\hello.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+</checkstyle>
