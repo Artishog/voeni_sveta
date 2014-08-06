@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<pmd version="1.5.0" timestamp="2014-08-06T10:13:57+03:00">
+<pmd version="1.5.0" timestamp="2014-08-06T11:08:37+03:00">
   <file name="C:\php-ws\home\jenkins test\voeni_sveta\app\controllers\HomeController.php">
     <violation beginline="30" endline="33" rule="UnusedPrivateMethod" ruleset="Unused Code Rules" package="+global" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatemethod" class="HomeController" method="doSomething" priority="3">
       Avoid unused private methods such as 'doSomething'.
