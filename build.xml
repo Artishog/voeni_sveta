@@ -71,7 +71,9 @@
 
  <target name="phpmd"
          description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
-  <exec executable="phpmd">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpmd.bat"/>
    <arg path="${basedir}/app" />
    <arg value="text" />
    <arg value="${basedir}/build/phpmd.xml" />
@@ -79,7 +81,9 @@
  </target>
 
  <target name="phpmd-ci" description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
-  <exec executable="phpmd">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpmd.bat"/>
    <arg path="${basedir}/app" />
    <arg value="xml" />
    <arg value="${basedir}/build/phpmd.xml" />
@@ -90,14 +94,18 @@
 
  <target name="phpcs"
          description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
-  <exec executable="${peardir}/phpcs.bat">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpcs.bat"/>
    <arg value="--standard=${basedir}/build/phpcs.xml" />
    <arg path="${basedir}/app" />
   </exec>
  </target>
 
  <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
-  <exec executable="${peardir}/phpcs.bat" >
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpcs.bat"/>
    <arg value="--report=checkstyle" />
    <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
    <arg value="--standard=${basedir}/build/phpcs.xml" />
@@ -106,6 +114,9 @@
  </target>
 
  <target name="phpunit" description="Run unit tests with PHPUnit">
-  <exec executable="${peardir}/phpunit.bat"/>
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpunit.bat"/>
+  </exec>
  </target>
 </project>
