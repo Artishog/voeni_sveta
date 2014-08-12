@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="name-of-project" default="build" basedir=".">
+
+<property environment="env"/>
+<property name="peardir" value="${env.PHP_PEAR_BIN_DIR}"/>
+
+ <target name="build"
+   depends="prepare,lint,phpmd-ci,phpcs-ci,phpcpd"/>
+
+ <target name="build-parallel"
+   depends="prepare,lint,tools-parallel"/>
+
+ <target name="tools-parallel" description="Run tools in parallel">
+  <parallel threadCount="2">
+   <sequential>
+   <antcall target="phpmd-ci"/>
+   </sequential>
+   <antcall target="phpcpd"/>
+   <antcall target="phpcs-ci"/>
+  </parallel>
+ </target>
+
+ <target name="clean" description="Cleanup build artifacts">
+  <delete dir="${basedir}/build/logs"/>
+ </target>
+
+ <target name="prepare" depends="clean" description="Prepare for build">
+  <mkdir dir="${basedir}/build/logs"/>
+ </target>
+
+ <target name="lint" description="Perform syntax check of sourcecode files">
+  <apply executable="php" failonerror="true">
+   <arg value="-l" />
+   
+   <fileset dir="${basedir}/projects/web-app/protected/controllers">
+    <include name="**/*.php" />
+   </fileset>
+
+   <fileset dir="${basedir}/projects/web-app/protected/migrations">
+    <include name="**/*.php" />
+   </fileset>
+
+   <fileset dir="${basedir}/projects/web-app/protected/models">
+    <include name="**/*.php" />
+   </fileset>
+
+   <fileset dir="${basedir}/projects/web-app/protected/tests">
+    <include name="**/*.php" />
+   </fileset>
+  </apply>
+ </target>
+
+  <target name="phpmd"
+         description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpmd.bat"/>
+   <arg path="${basedir}/projects/web-app/protected" />
+   <arg value="text" />
+   <arg value="${basedir}/jenkins-configs/phpmd.xml" />
+  </exec>
+ </target>
+
+ <target name="phpmd-ci" description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpmd.bat"/>
+   <arg path="${basedir}/projects/web-app/protected" />
+   <arg value="xml" />
+   <arg value="${basedir}/jenkins-configs/phpmd.xml" />
+   <arg value="--reportfile" />
+   <arg value="${basedir}/build/logs/pmd.xml" />
+  </exec>
+ </target>
+ 
+ <target name="phpcs"
+         description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpcs.bat"/>
+   <arg value="--standard=${basedir}/jenkins-configs/phpcs.xml" />
+   <arg path="${basedir}/projects/web-app/protected" />
+  </exec>
+ </target>
+
+ <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpcs.bat"/>
+   <arg value="--report=checkstyle" />
+   <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
+   <arg value="--standard=${basedir}/jenkins-configs/phpcs.xml" />
+   <arg path="${basedir}/projects/web-app/protected" />
+  </exec>
+ </target>
+ 
+ <target name="phpcpd" description="Find duplicate code using PHPCPD">
+ <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpcpd.bat"/>
+   <arg value="--log-pmd" />
+   <arg value="${basedir}/build/logs/phpcpd.xml" />
+   <arg path="${basedir}/projects/web-app/protected" />
+  </exec>
+ </target>
+
+</project>
