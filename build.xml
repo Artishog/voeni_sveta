@@ -113,12 +113,11 @@
    <arg path="${basedir}/app" />
   </exec>
  </target>
-
- <target name="phpunit" description="Run unit tests with PHPUnit">
-  <exec executable="cmd">
-   <arg value="/c"/>
-   <arg value="phpunit.bat"/>
-  </exec>
+ 
+  <target name="dist" description="Make build archive">
+  <zip destfile="${dist}/build.zip" update="true">
+    <fileset dir="${basedir}/"/>
+  </zip>
  </target>
  
  <target name="zip" description="Make build archive">
@@ -126,6 +125,13 @@
        basedir="${basedir}"
        update="true"
   />
+ </target>
+
+ <target name="phpunit" description="Run unit tests with PHPUnit">
+  <exec executable="cmd">
+   <arg value="/c"/>
+   <arg value="phpunit.bat"/>
+  </exec>
  </target>
   
 </project>
