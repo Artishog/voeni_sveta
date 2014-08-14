@@ -4,6 +4,7 @@
 
 <property environment="env"/>
 <property name="peardir" value="${env.PHP_PEAR_BIN_DIR}"/>
+<property name="dist" value=".."/>
 
  <target name="build"
    depends="prepare,lint,pdepend,phpmd-ci,phpcs-ci,phpunit"/>
@@ -119,4 +120,12 @@
    <arg value="phpunit.bat"/>
   </exec>
  </target>
+ 
+ <target name="zip" description="Make build archive">
+  <zip destfile="${dist}/build.zip"
+       basedir="${basedir}"
+       update="true"
+  />
+ </target>
+  
 </project>
